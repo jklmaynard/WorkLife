@@ -1,1 +1,15 @@
 <h1>Posts!</h1>
+
+<div>
+  {{#each post in model}}
+    <div class="col-md-12">
+      <ul>
+        <li>
+          {{#link-to 'post' post}}
+          {{post.name}}
+          {{/link-to}}
+        </li>
+      </ul>
+    </div>
+  {{/each}}
+</div>
