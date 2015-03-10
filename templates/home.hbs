@@ -1,3 +1,24 @@
-<div class="col-md-12">
-<h1>This is the Work Life!</h1>
+<div>
+  <div id="auction-image-carousel" class="carousel slide" data="2000" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#auction-image-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#auction-image-carousel" data-slide-to="1"></li>
+    </ol>
+
+      <div class="carousel-inner">
+        <div class="active item">
+          {{#link-to 'posts'}}<img class="img-carousel" src="http://www.wallpaperup.com/uploads/wallpapers/2013/08/02/126849/4ef646a5c7022e6035d86c7db2ba4dcb.jpg">{{/link-to}}
+        </div>
+        <div class="item">
+          {{#link-to 'haikus'}}<img class="img-carousel" src="http://fc02.deviantart.net/fs70/f/2010/013/0/e/LIFE_wallpaper_by_an_tre.png">{{/link-to}}
+        </div>
+      </div>
+
+    <a class="carousel-control left" href="#auction-image-carousel" data-slide="prev">
+      <span class="glypicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#auction-image-carousel" data-slide="next">
+      <span class="glypicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
 </div>
