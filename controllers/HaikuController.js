@@ -4,7 +4,7 @@ WorkLife.HaikuController = Ember.ObjectController.extend({
       if (confirm('Uh, yeah?')) {
         this.get('model').destroyRecord();
       };
-      this.transitionToRoute('home')
+      this.transitionToRoute('haikus')
     }
   }
 });
