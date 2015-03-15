@@ -1,0 +1,22 @@
+<h1>Job Description Haiku</h1>
+
+<form>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input id="author" value=author class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="firstLine">Line 1 (5 syllables)</label>
+    {{input id="firstLine" value=firstLine class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="secondLine">Line 2 (7 syllables)</label>
+    {{input id="secondLine" value=secondLine class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="thirdLine">Line 3 (5 syllables)</label>
+    {{input id="thirdLine" value=thirdLine class="form-control"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'save'}}>Haiku!</button>
+</form>

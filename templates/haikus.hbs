@@ -1,0 +1,15 @@
+{{#link-to 'new-haiku' class="btn btn-primary"}}New Haiku!{{/link-to}}
+
+<div>
+  {{#each haiku in model}}
+    <div class="col-md-12">
+      <ul>
+        <li>
+          {{#link-to 'haiku' haiku}}
+            {{haiku.author}}: <em>{{haiku.firstLine}}</em> . . .
+          {{/link-to}}
+        </li>
+      </ul>
+    </div>
+  {{/each}}
+</div>

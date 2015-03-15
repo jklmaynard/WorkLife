@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+}
+
+.post-image {
+  max-width: 400px;
+  max-height: 350px;
+}
+
+.thumbnail-image {
+  max-width: 250px;
+  max-height: 200px;
+  padding-top: 20px;
+}

@@ -1,0 +1,16 @@
+<h1>Posts!</h1>
+
+<div>
+  {{#each post in model}}
+    <div class="col-md-4">
+      <ul>
+        <li>
+          {{#link-to 'post' post}}
+          {{post.name}}<br>
+          <img class="thumbnail-image" {{bind-attr src=post.image}}/>
+          {{/link-to}}
+        </li>
+      </ul>
+    </div>
+  {{/each}}
+</div>
