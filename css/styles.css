@@ -12,3 +12,11 @@ li {
   max-height: 200px;
   padding-top: 20px;
 }
+
+#haiku-list {
+  margin-bottom: 10px 0 0;
+}
+
+#new-haiku {
+  margin-bottom: 20px;
+}
