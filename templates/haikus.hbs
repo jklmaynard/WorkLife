@@ -1,8 +1,16 @@
+<div id="new-haiku" class="col-md-6">
+  <p>
+    A haiku is a seventeen syllable poem of three lines. Short and simple, it gets to an essence.  In the case of job descriptions, it can also be pretty funny. Try out your own! <br><br>
+    Example: <br> "'Y'all bring it way down!' <br> All students move to the floor. <br> Idioms. Useless. "
+  </p>
+
 {{#link-to 'new-haiku' class="btn btn-primary"}}New Haiku!{{/link-to}}
+</div>
+
 
 <div>
   {{#each haiku in model}}
-    <div class="col-md-12">
+    <div id="haiku-list" class="col-md-12">
       <ul>
         <li>
           {{#link-to 'haiku' haiku}}
